@@ -2,7 +2,7 @@ import type { Metadata } from 'next';
 import ServiceDetail from '@/components/ServiceDetail';
 
 export const metadata: Metadata = {
-  title: 'Implantes Dentários',
+  title: 'Implantes Dentários em São José dos Pinhais',
   description: 'Implante dentário sem corte, com cirurgia guiada por planejamento digital. Conheça o tratamento de implantes da Orto Up em São José dos Pinhais.',
   alternates: { canonical: '/servicos/implantes-dentarios' },
 };
@@ -11,6 +11,7 @@ export default function ImplantesDentarios() {
   return (
     <ServiceDetail
       title="Implantes Dentários"
+      pageTitle="Implantes Dentários em São José dos Pinhais"
       icon="/images/icons/icon-implantes.png"
       image="/images/services/implante-dentario-01.jpg"
       image2="/images/services/implante-dentario-02.jpg"

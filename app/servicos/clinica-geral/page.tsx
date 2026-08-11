@@ -2,7 +2,7 @@ import type { Metadata } from 'next';
 import ServiceDetail from '@/components/ServiceDetail';
 
 export const metadata: Metadata = {
-  title: 'Clínica Geral',
+  title: 'Clínica Geral em São José dos Pinhais',
   description: 'Exames, limpezas e restaurações de rotina para a base da sua saúde bucal. Conheça o atendimento de clínica geral da Orto Up em São José dos Pinhais.',
   alternates: { canonical: '/servicos/clinica-geral' },
 };
@@ -11,6 +11,7 @@ export default function ClinicaGeral() {
   return (
     <ServiceDetail
       title="Clínica Geral"
+      pageTitle="Clínica Geral em São José dos Pinhais"
       icon="/images/icons/icon-limpeza-de-dente.png"
       image="/images/services/clinica-geral-01.jpg"
       image2="/images/services/clinica-geral-02.jpg"

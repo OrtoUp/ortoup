@@ -7,6 +7,7 @@ type Step = {
 
 export default function ServiceDetail({
   title,
+  pageTitle,
   icon,
   intro,
   highlights,
@@ -16,6 +17,7 @@ export default function ServiceDetail({
   indicatedFor,
 }: {
   title: string;
+  pageTitle?: string;
   icon: string;
   intro: string;
   highlights: string[];
@@ -30,7 +32,7 @@ export default function ServiceDetail({
         <div className="container relative z-2">
           <div className="row align-items-center">
             <div className="col-lg-12">
-              <h1 className="wow fadeInUp">{title}</h1>
+              <h1 className="wow fadeInUp">{pageTitle ?? title}</h1>
               <div className="border-bottom my-3"></div>
               <ul className="crumb wow fadeInDown">
                 <li><Link href="/">Início</Link></li>

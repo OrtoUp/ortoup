@@ -2,7 +2,7 @@ import type { Metadata } from 'next';
 import ServiceDetail from '@/components/ServiceDetail';
 
 export const metadata: Metadata = {
-  title: 'Alinhadores Invisíveis',
+  title: 'Alinhadores Invisíveis em São José dos Pinhais',
   description: 'Alinhadores invisíveis Invisalign para corrigir o alinhamento dos dentes de forma discreta e confortável. Conheça o tratamento da Orto Up em São José dos Pinhais.',
   alternates: { canonical: '/servicos/alinhadores-invisiveis' },
 };
@@ -11,6 +11,7 @@ export default function AlinhadoresInvisiveis() {
   return (
     <ServiceDetail
       title="Alinhadores Invisíveis"
+      pageTitle="Alinhadores Invisíveis em São José dos Pinhais"
       icon="/images/icons/icon-alinhador-invisivel.png"
       image="/images/services/alinhadores-invisiveis-01.jpg"
       image2="/images/services/alinhadores-invisiveis-02.jpg"

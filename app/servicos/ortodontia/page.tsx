@@ -2,7 +2,7 @@ import type { Metadata } from 'next';
 import ServiceDetail from '@/components/ServiceDetail';
 
 export const metadata: Metadata = {
-  title: 'Ortodontia',
+  title: 'Ortodontia em São José dos Pinhais',
   description: 'Aparelhos ortodônticos, incluindo o autoligado sem borrachinhas, para alinhar os dentes e corrigir a mordida. Tratamento ortodôntico da Orto Up em São José dos Pinhais.',
   alternates: { canonical: '/servicos/ortodontia' },
 };
@@ -11,6 +11,7 @@ export default function Ortodontia() {
   return (
     <ServiceDetail
       title="Ortodontia"
+      pageTitle="Ortodontia em São José dos Pinhais"
       icon="/images/icons/icon-ortodontia.png"
       image="/images/services/ortodontia-01.jpg"
       image2="/images/services/ortodontia-02.jpg"

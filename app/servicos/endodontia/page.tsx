@@ -2,7 +2,7 @@ import type { Metadata } from 'next';
 import ServiceDetail from '@/components/ServiceDetail';
 
 export const metadata: Metadata = {
-  title: 'Endodontia',
+  title: 'Endodontia em São José dos Pinhais',
   description: 'Tratamento de canal com tecnologia que permite, na maioria dos casos, sessão única. Conheça a endodontia da Orto Up em São José dos Pinhais.',
   alternates: { canonical: '/servicos/endodontia' },
 };
@@ -11,6 +11,7 @@ export default function Endodontia() {
   return (
     <ServiceDetail
       title="Endodontia"
+      pageTitle="Endodontia em São José dos Pinhais"
       icon="/images/icons/icon-endodontia.png"
       image="/images/services/endodontia-01.jpg"
       image2="/images/services/endodontia-02.jpg"

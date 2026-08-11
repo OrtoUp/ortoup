@@ -2,7 +2,7 @@ import type { Metadata } from 'next';
 import ServiceDetail from '@/components/ServiceDetail';
 
 export const metadata: Metadata = {
-  title: 'Prótese Dentária',
+  title: 'Prótese Dentária em São José dos Pinhais',
   description: 'Próteses dentárias fixas e removíveis para restaurar a função e a estética de dentes ausentes. Conheça o tratamento da Orto Up em São José dos Pinhais.',
   alternates: { canonical: '/servicos/protese-dentaria' },
 };
@@ -11,6 +11,7 @@ export default function ProteseDentaria() {
   return (
     <ServiceDetail
       title="Prótese Dentária"
+      pageTitle="Prótese Dentária em São José dos Pinhais"
       icon="/images/icons/icon-protese.png"
       image="/images/services/protese-dentaria-01.jpg"
       image2="/images/services/protese-dentaria-02.jpg"

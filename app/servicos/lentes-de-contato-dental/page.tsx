@@ -2,7 +2,7 @@ import type { Metadata } from 'next';
 import ServiceDetail from '@/components/ServiceDetail';
 
 export const metadata: Metadata = {
-  title: 'Lentes de Contato Dental',
+  title: 'Lentes de Contato Dental em São José dos Pinhais',
   description: 'Lentes de contato dental em porcelana e resina para transformar a estética do seu sorriso. Conheça o tratamento da Orto Up em São José dos Pinhais.',
   alternates: { canonical: '/servicos/lentes-de-contato-dental' },
 };
@@ -11,6 +11,7 @@ export default function LentesDeContatoDental() {
   return (
     <ServiceDetail
       title="Lentes de Contato Dental"
+      pageTitle="Lentes de Contato Dental em São José dos Pinhais"
       icon="/images/icons/icon-lente-contato.png"
       image="/images/services/lente-de-contato-dental-01.jpg"
       image2="/images/services/lente-de-contato-dental-02.jpg"
