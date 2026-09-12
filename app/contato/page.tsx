@@ -49,7 +49,7 @@ export default function Contact() {
 
                 <div className="col-lg-6">
                   <div className="fw-bold text-dark"><i className="icofont-phone me-2 id-color-2"></i>Telefone / WhatsApp</div>
-                  <Link href="https://wa.me/5541998497676" target="_blank">(41) 99849-7676</Link>
+                  <Link href="https://wa.me/5541998497676?text=Ol%C3%A1%21%20Vim%20pelo%20site%20da%20Orto%20Up%20e%20gostaria%20de%20mais%20informa%C3%A7%C3%B5es%20sobre%20os%20tratamentos." target="_blank" rel="noopener noreferrer">(41) 99849-7676</Link>
                 </div>
 
                 <div className="col-lg-6">

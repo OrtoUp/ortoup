@@ -174,7 +174,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
           <a href="#" id="back-to-top"></a>
           <Link
             className="whatsapp-float"
-            href="https://wa.me/5541998497676?text=Ol%C3%A1%21%20Gostaria%20de%20entrar%20em%20contato."
+            href="https://wa.me/5541998497676?text=Ol%C3%A1%21%20Vim%20pelo%20site%20da%20Orto%20Up%20e%20gostaria%20de%20mais%20informa%C3%A7%C3%B5es%20sobre%20os%20tratamentos."
             target="_blank"
             rel="noopener noreferrer"
             aria-label="Entre em contato pelo WhatsApp"
@@ -238,7 +238,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 
                 <div className="social-icons">
                     <Link href="https://instagram.com/ortoup_reabilitacao_oral" target="_blank"><i className="fa-brands fa-instagram"></i></Link>
-                    <Link href="https://wa.me/5541998497676" target="_blank"><i className="fa-brands fa-whatsapp"></i></Link>
+                    <Link href="https://wa.me/5541998497676?text=Ol%C3%A1%21%20Vim%20pelo%20site%20da%20Orto%20Up%20e%20gostaria%20de%20mais%20informa%C3%A7%C3%B5es%20sobre%20os%20tratamentos." target="_blank" rel="noopener noreferrer" aria-label="Falar com a Orto Up pelo WhatsApp"><i className="fa-brands fa-whatsapp"></i></Link>
                 </div>
             </div>
         </div>
